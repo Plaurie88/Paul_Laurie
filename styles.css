@@ -1,0 +1,11 @@
+#page_container {
+	
+	width: 600px;
+	height: 600px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    overflow: hidden;
+    background-color: coral;
+}
+
