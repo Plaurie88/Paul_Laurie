@@ -1,5 +1,5 @@
+/*
 #page_container {
-	
 	width: 600px;
 	height: 600px;
 	position: relative;
@@ -7,5 +7,28 @@
 	margin-right: auto;
     overflow: hidden;
     background-color: coral;
-}
+} 
+*/
 
+
+/* Basic Layout, all Fixed for now. */
+#mainholder {
+	width: 1000px;
+	height: 8000px;
+	position: fixed;
+	background-color: aqua;
+}
+#sidebar {
+	width: 198px;
+	height: 800px;
+	position: fixed;
+	left: 2px;
+	background-color:rebeccapurple;
+}
+#content {
+	width: 796px;
+	height: auto;
+	position: fixed;
+	left: 204px;
+		background-color: rgb(60, 0, 255);
+}
