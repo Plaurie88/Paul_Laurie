@@ -40,11 +40,11 @@ img{
 }
 
 body {box-sizing: border-box;
-	border: 2px dashed blue;
+	
 	background-color: #656461;}
 
 main{
-	border: 2px dashed green;	
+	border: 2px dashed transparent;	
 	}
 	
 aside{
@@ -60,10 +60,34 @@ article{
 	-moz-border-radius: 3em 3em 3em 3em;
 	border-radius: 3em 3em 3em 3em;
 
-	/*
-	background-image: url("../images/gray.png");
-	background-repeat: repeat-x-y; */
+	
+	background-image: image("gray.png");
+	background-repeat: repeat-x-y; 
 }
+
+section{
+	/*border: 2px dashed green;	*/
+	border: 2px dashed transparent;	
+}
+.job{
+	background-color: gray;
+}
+
+
+.main-dir {
+	border: 2px solid orangered;
+	display: flex;
+	flex-direction: row;
+	-moz-border-radius: 3em 3em 3em 3em;
+	border-radius: 3em 3em 3em 3em;
+}
+.L1{
+	width: 25%;
+}
+.R1{
+	width: 75%;
+}
+
 .flex-container {
 	display: flex;
 }
