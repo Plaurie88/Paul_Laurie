@@ -73,13 +73,10 @@ section{
 }
 @media screen and
 (max-width:500px){
-
 		.flex-direction {
 			flex-direction: column;
 		}
-
 		aside,article {
 			width: 95%;
-			
 		}
 	}
