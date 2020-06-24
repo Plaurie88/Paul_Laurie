@@ -2,11 +2,9 @@
 img{ 
 	Width: 100%;
 }
-
 body {box-sizing: border-box;
-	
-	background-color: #656461;}
-
+		/* background-color: #656461; */
+	} 
 main{
 	border: 2px dashed transparent;	
 	}
@@ -17,38 +15,30 @@ aside{
 	padding: 2.5%;
 }
 article{
-	border: 2px dashed brown;
+	border: 2px solid brown;
 	width: 65%;
 	padding: 2.5%;
 
 	-moz-border-radius: 3em 3em 3em 3em;
 	border-radius: 3em 3em 3em 3em;
-
-	
-/*	background-image: url("./images/gray.png") ;
-	background-repeat: repeat-x-y; */
 }
-
 section{
 	border: 2px dashed green;
 	/*border: 2px dashed transparent;		*/
 }
-
+.image{
+	background-image: url("./images/gray.png") ;
+	background-repeat: repeat-x-y; 
+	opacity: 0.3;
+}
 .entry{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 }
-
-
-
-
-.job{
+/* .job{
 	background-color: gray;
-
-}
-
-
+} */
 .main-dir {
 	border: 2px solid orangered;
 	display: flex;
@@ -68,9 +58,13 @@ section{
 	width: 75%;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
-
 }
-
+.M1{
+	width: 100%;
+	/* padding: 5%; */
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
 .flex-container {
 	display: flex;
 }
