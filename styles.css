@@ -8,24 +8,28 @@ body {box-sizing: border-box;
 main{
 	border: 2px dashed transparent;	
 	}
-	
 aside{
 	/* border: 2px dashed red; */
 	border-right: 2px solid black;
 	width: 25%;
 	padding: 2.5%;
+	background-color: #80DEEA;
 }
 article{
 	/* border: 2px solid brown; */
 	width: 65%;
 	padding: 2.5%;
-
-	-moz-border-radius: 3em 3em 3em 3em;
-	border-radius: 3em 3em 3em 3em;
 }
 section{
 	border-top: 3px dotted black;
 	/*border: 2px dashed transparent;		*/
+}
+h1{
+	text-align: left;
+	font-size: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-shadow: 5px 2px #4d4d4d;
 }
 h2{
 	text-align: center;
@@ -33,10 +37,26 @@ h2{
 	-moz-border-radius: 9em 9em 9em 9em;
 	border-radius: 9em 9em 9em 9em;
 }
+i{
+	padding-right: 5px;
+}
+.banner{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.profileimg{
+	width: 100%;
+	/* background-image: url("./images/cartoon.jpg"); */
+	border: 2px solid black;
+	-moz-border-radius: 25em 25em 25em 25em;
+	border-radius: 25em 25em 25em 25em;
+}
 .icons{
 	align-content: center;
 	padding: 5px;
-
+	text-align: center;
+	font-weight: bold;
 }
 
 .image{
@@ -54,6 +74,7 @@ h2{
 } */
 .main-dir {
 	border: 2px solid orangered;
+	background-color: whitesmoke;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -92,5 +113,6 @@ h2{
 		aside,article {
 			width: 95%;
 			border-right: 2px solid transparent;
+			background-color: #80CBC4;
 		}
 	}
